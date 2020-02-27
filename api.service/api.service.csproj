@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\api.database\api.database.csproj" />
+    <ProjectReference Include="..\api.model\api.model.csproj" />
+    <ProjectReference Include="..\api.repository\api.repository.csproj" />
+  </ItemGroup>
+
+</Project>
